@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/1.css">
+</head>
+<body>
+       <div class="container">
+        <div class="addNewTeacher">
+            <div class="box_add_new">
+                <form  action="/addnewclass" method="post">
+                <div class="content">
+                    <div class="grid-content">
+                    <h2 class="name">Institute <span>*</span></h2>
+                    <select  name="institute" class="text-content">
+                        <option value="DEFAULT" disabled>--Choose Institute--</option>
+                        <option value="3">3</option>
+                    </select>
+                    </div>
+                    <div class="grid-content">
+                    <h2 class="name">ID Class <span>*</span></h2>
+                    <div class="group-input">
+                         <i class="fas fa-passport"></i>
+                        <input  type="text" class="text-content" placeholder="Set ID class: A1, A2, ..." name="idclass" />
+                    </div>
+                    </div>
+                    <div class="grid-content">
+                    <h2 class="name">Class name <span>*</span></h2>
+                    <div class="group-input">
+                        <i class="fas fa-book-open"></i>
+                        <input  type="text" class="text-content" placeholder="Set class name" name="classname" />
+                    </div>
+                    </div>
+                    <div class="grid-content">
+                    <h2 class="name">Day <span>*</span></h2>
+                    <select name="day" class="text-content">
+                        <option value="DEFAULT" disabled>--Choose Day--</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select>
+                    </div>
+                    <div class="grid-content">
+                    <h2 class="name">Start time <span>*</span></h2>
+                    <select  name="starttime" class="text-content" >
+                        <option value="DEFAULT" disabled>--Choose Start Time--</option>
+                       <option value="1">1</option>
+                    </select>
+                    </div>
+                    <div class="grid-content">
+                    <h2 class="name">End time <span>*</span></h2>
+                    <select  name="endtime" class="text-content" >
+                        <option value="DEFAULT" disabled>--Choose End Time--</option>
+                      <option  value="2">2</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <a class="btn-a btn-cancel" href='/home/class'>Cancel</a>
+                    <button  type="submit">Add New</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+</body>
+</html>

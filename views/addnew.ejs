@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/1.css">
+</head>
+<body>
+    <div class="addNewTeacher">
+                    <div class="box_add_new">
+                        <form action="/addnew" method="post">
+                            <div class="content">
+                                <div class="grid-content">
+                                    <h2 class="name">First name</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" class="text-content" placeholder="Full name" name="firstname">
+                                    </div>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Full Name</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" class="text-content" placeholder="Full name" name="fullname">
+                                    </div>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Username</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-at"></i>
+                                    <input type="text" class="text-content" placeholder="Username" name="username">  
+                                    </div>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Password</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-lock"></i>
+                                        <input type="text" class="text-content" placeholder="Password" name="password"> 
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Phone</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-phone"></i>
+                                        <input type="text" class="text-content" placeholder="Phone number">
+                                    </div>
+                                   
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Gender</h2>
+                                    <select name="gender" id="" class="text-content">
+                                        <option disabled="disabled" selected="selected">--Choose gender--</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Institute</h2>
+                                    <select name="institute" id="" class="text-content">
+                                        <option disabled="disabled" selected="selected">--Choose gender--</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">Permission</h2>
+                                    <select name="authority" id="" class="text-content">
+                                        <option disabled="disabled" selected="selected">--Choose gender--</option>
+                                        <option value="teacher(dean)">Teacher(Dean)</option>
+                                        <option value="teacher">Teacher</option>
+                                        <option value="student">Student</option>
+                                    </select>
+                                </div>
+                                <div class="grid-content">
+                                    <h2 class="name">ID</h2>
+                                    <div class="group-input">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" class="text-content" placeholder="ID" name="id">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-a btn-cancel">Cancel</button>
+                                <button class="btn-a btn-submit" type="submit">Add New</button>
+                            </div>
+                            
+
+                        </form>
+                    </div>
+                </div>
+</body>
+</html>
